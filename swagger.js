@@ -4,7 +4,7 @@ const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
   info: {
-    title: 'Case Management REST API',
+    title: 'Student Clubs REST API',
     description: 'API Documentation',
   },
   host: process.env.APISERVER+':9001',
