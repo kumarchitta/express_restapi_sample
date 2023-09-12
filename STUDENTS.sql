@@ -1,0 +1,111 @@
+create table STUDENTS (
+	student_id INT,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+	age INT,
+	email VARCHAR(50),
+	major VARCHAR(50),
+	college VARCHAR(50),
+	gpa DECIMAL(3,2),
+	graduation_date DATE
+);
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (1, 'Ulla', 'Raeburn', 21, 'uraeburn0@narod.ru', null, null, 2.01, '6/20/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (2, 'Carlen', 'Gorhardt', 19, 'cgorhardt1@joomla.org', null, null, 2.34, '5/13/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (3, 'Francisco', 'Montez', 19, 'fmontez2@cbslocal.com', null, null, 1.41, '5/14/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (4, 'Cassie', 'Bollis', 23, 'cbollis3@twitpic.com', null, null, 3.97, '5/21/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (5, 'Dietrich', 'Croutear', 21, 'dcroutear4@ted.com', null, null, 0.89, '6/13/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (6, 'Elden', 'Klamp', 20, 'eklamp5@blogger.com', null, null, 3.45, '8/22/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (7, 'Sherilyn', 'Coate', 20, 'scoate6@mail.ru', null, null, 0.21, '3/16/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (8, 'Glen', 'Goodey', 22, 'ggoodey7@vinaora.com', null, null, 2.83, '7/31/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (9, 'Lars', 'Lafoy', 23, 'llafoy8@google.de', null, null, 1.24, '4/16/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (10, 'Shae', 'Skettles', 25, 'sskettles9@springer.com', null, null, 0.32, '7/10/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (11, 'Laurie', 'Uttley', 22, 'luttleya@cmu.edu', null, null, 0.77, '6/26/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (12, 'Giordano', 'Pee', 19, 'gpeeb@cbc.ca', null, null, 2.27, '8/18/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (13, 'Willette', 'Midden', 25, 'wmiddenc@va.gov', null, null, 0.09, '10/26/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (14, 'Adair', 'Oger', 23, 'aogerd@indiegogo.com', null, null, 0.39, '10/18/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (15, 'Kiley', 'O''Gready', 24, 'kogreadye@techcrunch.com', null, null, 0.54, '9/9/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (16, 'Storm', 'Odams', 19, 'sodamsf@lycos.com', null, null, 1.33, '8/8/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (17, 'Barty', 'Lannin', 18, 'blanning@ihg.com', null, null, 2.01, '3/8/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (18, 'Kile', 'Cristofanini', 22, 'kcristofaninih@wikia.com', null, null, 0.26, '1/30/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (19, 'Brandais', 'Rosenshine', 19, 'brosenshinei@bravesites.com', null, null, 0.98, '7/5/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (20, 'Quincy', 'Yandle', 18, 'qyandlej@huffingtonpost.com', null, null, 3.73, '2/20/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (21, 'Starlin', 'Cumberbatch', 22, 'scumberbatchk@devhub.com', null, null, 0.58, '1/18/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (22, 'Sheridan', 'Miell', 19, 'smielll@ifeng.com', null, null, 1.89, '9/10/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (23, 'Audry', 'Tabourel', 20, 'atabourelm@nbcnews.com', null, null, 1.4, '10/27/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (24, 'Christoper', 'Storch', 24, 'cstorchn@webeden.co.uk', null, null, 2.91, '6/29/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (25, 'Masha', 'Squibb', 22, 'msquibbo@dion.ne.jp', null, null, 1.68, '5/12/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (26, 'Billie', 'Golley', 22, 'bgolleyp@flickr.com', null, null, 3.77, '6/26/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (27, 'Barde', 'Kisby', 25, 'bkisbyq@webnode.com', null, null, 1.97, '12/30/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (28, 'Tresa', 'Balleine', 23, 'tballeiner@usnews.com', null, null, 1.46, '2/17/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (29, 'Gae', 'Madner', 25, 'gmadners@statcounter.com', null, null, 3.37, '3/19/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (30, 'Doralin', 'Groneway', 24, 'dgronewayt@gravatar.com', null, null, 3.6, '7/10/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (31, 'Osmond', 'Clendening', 21, 'oclendeningu@hostgator.com', null, null, 3.88, '4/23/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (32, 'Hieronymus', 'Povall', 19, 'hpovallv@cmu.edu', null, null, 3.15, '11/22/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (33, 'Timoteo', 'Josselson', 20, 'tjosselsonw@yandex.ru', null, null, 1.79, '10/28/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (34, 'Fredrick', 'Ygoe', 21, 'fygoex@cnbc.com', null, null, 0.18, '8/21/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (35, 'Albie', 'Mouncey', 22, 'amounceyy@economist.com', null, null, 1.71, '6/22/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (36, 'Amil', 'Stute', 23, 'astutez@symantec.com', null, null, 0.84, '8/25/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (37, 'Kennett', 'Fuzzey', 20, 'kfuzzey10@ycombinator.com', null, null, 3.15, '11/16/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (38, 'Sumner', 'Melanaphy', 21, 'smelanaphy11@huffingtonpost.com', null, null, 3.91, '7/21/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (39, 'Osmond', 'Dencs', 25, 'odencs12@arizona.edu', null, null, 2.87, '8/6/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (40, 'Pavia', 'Delacoste', 23, 'pdelacoste13@163.com', null, null, 1.01, '6/11/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (41, 'Rudyard', 'Lupson', 18, 'rlupson14@biblegateway.com', null, null, 1.92, '4/30/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (42, 'Saunders', 'Jiruch', 22, 'sjiruch15@ibm.com', null, null, 2.34, '3/17/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (43, 'Alikee', 'Charon', 18, 'acharon16@apple.com', null, null, 2.28, '4/3/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (44, 'Kass', 'Knibb', 19, 'kknibb17@instagram.com', null, null, 2.21, '3/31/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (45, 'Meredith', 'Normington', 18, 'mnormington18@gmpg.org', null, null, 0.74, '12/12/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (46, 'Quinn', 'Otton', 22, 'qotton19@4shared.com', null, null, 3.88, '12/9/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (47, 'Naomi', 'Aubri', 18, 'naubri1a@bizjournals.com', null, null, 1.15, '7/9/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (48, 'Debee', 'Strotton', 22, 'dstrotton1b@myspace.com', null, null, 2.66, '9/9/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (49, 'Ashien', 'Downe', 22, 'adowne1c@blinklist.com', null, null, 1.77, '1/17/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (50, 'Flore', 'Arkin', 23, 'farkin1d@meetup.com', null, null, 0.51, '8/11/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (51, 'Marie-ann', 'Sabatier', 18, 'msabatier1e@parallels.com', null, null, 3.51, '4/11/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (52, 'Devina', 'Anthoney', 22, 'danthoney1f@businesswire.com', null, null, 1.86, '6/12/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (53, 'Celeste', 'Parrin', 23, 'cparrin1g@auda.org.au', null, null, 0.05, '4/8/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (54, 'Chucho', 'Romney', 23, 'cromney1h@disqus.com', null, null, 2.1, '7/1/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (55, 'Caresa', 'Labat', 19, 'clabat1i@deviantart.com', null, null, 3.45, '11/18/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (56, 'Gweneth', 'Kleiser', 18, 'gkleiser1j@usatoday.com', null, null, 0.18, '7/3/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (57, 'Lucille', 'Brafield', 23, 'lbrafield1k@cbc.ca', null, null, 3.67, '6/29/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (58, 'Tedra', 'Vail', 19, 'tvail1l@dropbox.com', null, null, 1.88, '11/24/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (59, 'Kirbee', 'Coleiro', 24, 'kcoleiro1m@opensource.org', null, null, 2.4, '6/9/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (60, 'Melvyn', 'Legonidec', 23, 'mlegonidec1n@ucoz.ru', null, null, 3.23, '8/21/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (61, 'Brock', 'Abramovitz', 19, 'babramovitz1o@scientificamerican.com', null, null, 1.37, '12/3/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (62, 'Dorise', 'Greenwood', 25, 'dgreenwood1p@theguardian.com', null, null, 3.37, '2/18/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (63, 'Liv', 'Brehault', 20, 'lbrehault1q@eventbrite.com', null, null, 1.66, '11/2/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (64, 'Reinold', 'Fishleigh', 21, 'rfishleigh1r@cdbaby.com', null, null, 0.23, '1/24/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (65, 'Warden', 'Maciak', 24, 'wmaciak1s@craigslist.org', null, null, 3.33, '3/21/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (66, 'Micky', 'Elegood', 23, 'melegood1t@nsw.gov.au', null, null, 0.26, '2/2/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (67, 'Sallee', 'Cordelle', 24, 'scordelle1u@wisc.edu', null, null, 1.73, '5/23/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (68, 'Stephen', 'Quarles', 25, 'squarles1v@narod.ru', null, null, 2.58, '10/20/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (69, 'Kennedy', 'Braban', 24, 'kbraban1w@mayoclinic.com', null, null, 1.22, '9/14/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (70, 'Jessee', 'Rowbottom', 18, 'jrowbottom1x@vk.com', null, null, 2.46, '7/19/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (71, 'Ondrea', 'Gatcliff', 19, 'ogatcliff1y@domainmarket.com', null, null, 1.98, '2/21/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (72, 'Sebastien', 'Detoile', 19, 'sdetoile1z@army.mil', null, null, 1.61, '1/25/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (73, 'Emlynne', 'Dwelley', 20, 'edwelley20@prweb.com', null, null, 3.97, '6/27/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (74, 'Layne', 'Hodcroft', 18, 'lhodcroft21@nature.com', null, null, 1.24, '1/15/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (75, 'Van', 'Cossans', 19, 'vcossans22@wp.com', null, null, 1.27, '10/16/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (76, 'Bartlett', 'Brands', 24, 'bbrands23@youtu.be', null, null, 0.21, '4/26/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (77, 'Brandie', 'Ratnage', 20, 'bratnage24@live.com', null, null, 0.96, '3/13/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (78, 'Keith', 'Dilnot', 22, 'kdilnot25@ca.gov', null, null, 3.15, '10/14/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (79, 'Daffy', 'January 1st', 25, 'djanuaryst26@smh.com.au', null, null, 0.99, '10/5/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (80, 'Faber', 'Zorn', 19, 'fzorn27@wiley.com', null, null, 1.01, '12/20/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (81, 'Demeter', 'Heggadon', 18, 'dheggadon28@bluehost.com', null, null, 2.05, '2/10/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (82, 'Kathie', 'Noell', 24, 'knoell29@globo.com', null, null, 0.78, '6/21/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (83, 'Dene', 'Dedman', 21, 'ddedman2a@sciencedirect.com', null, null, 3.78, '10/3/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (84, 'Levon', 'Kersaw', 19, 'lkersaw2b@weebly.com', null, null, 1.23, '2/17/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (85, 'Silvio', 'Mordon', 21, 'smordon2c@umich.edu', null, null, 0.04, '4/14/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (86, 'Hunt', 'Nabbs', 22, 'hnabbs2d@sfgate.com', null, null, 0.64, '6/4/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (87, 'Jolynn', 'Ladell', 19, 'jladell2e@paypal.com', null, null, 0.94, '10/30/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (88, 'Crystie', 'Overil', 25, 'coveril2f@springer.com', null, null, 2.82, '6/6/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (89, 'Halsy', 'Lapthorn', 21, 'hlapthorn2g@cloudflare.com', null, null, 3.12, '6/20/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (90, 'Deane', 'Huge', 18, 'dhuge2h@360.cn', null, null, 0.14, '3/31/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (91, 'Dyna', 'Figgs', 22, 'dfiggs2i@jimdo.com', null, null, 1.8, '10/29/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (92, 'Celestina', 'Sowley', 18, 'csowley2j@google.nl', null, null, 0.07, '2/20/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (93, 'Bobbie', 'McKechnie', 20, 'bmckechnie2k@so-net.ne.jp', null, null, 0.62, '4/17/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (94, 'Adler', 'Stot', 22, 'astot2l@archive.org', null, null, 1.81, '6/13/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (95, 'Darrin', 'Toupe', 25, 'dtoupe2m@amazon.com', null, null, 3.83, '3/26/2024');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (96, 'Poppy', 'Shapira', 19, 'pshapira2n@dagondesign.com', null, null, 0.97, '9/21/2023');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (97, 'Claudette', 'Frobisher', 23, 'cfrobisher2o@furl.net', null, null, 2.23, '7/2/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (98, 'Jo-ann', 'Kubista', 24, 'jkubista2p@meetup.com', null, null, 2.59, '7/15/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (99, 'Blondelle', 'Bown', 23, 'bbown2q@eventbrite.com', null, null, 2.92, '7/16/2025');
+insert into STUDENTS (student_id, first_name, last_name, age, email, major, college, gpa, graduation_date) values (100, 'Tori', 'Kidby', 24, 'tkidby2r@marriott.com', null, null, 3.22, '6/21/2025');
